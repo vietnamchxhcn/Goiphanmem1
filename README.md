@@ -1,6 +1,9 @@
 # Goiphanmem1
-1.Install_Data.py (Data Crawler)Script này chịu trách nhiệm thu thập dữ liệu lịch sử từ nguồn CafeF API.
-Chức năng chính:Gửi request giả lập User-Agent để lấy dữ liệu giao dịch (OHLCV) của danh sách cổ phiếu HNX30.Sử dụng Multi-threading (ThreadPoolExecutor) để tải song song dữ liệu cho nhiều mã cổ phiếu, tối ưu hóa tốc độ.Tự động xử lý phân trang (Paging) để lấy toàn bộ lịch sử giao dịch từ 2020 đến nay.Lưu trữ dữ liệu thô dưới dạng Excel.
+1.Install_Data.py (Data Crawler) Script này chịu trách nhiệm thu thập dữ liệu lịch sử từ nguồn CafeF API.
+Chức năng chính:
+Gửi request giả lập User-Agent để lấy dữ liệu giao dịch (OHLCV) của danh sách cổ phiếu HNX30.
+Sử dụng Multi-threading (ThreadPoolExecutor) để tải song song dữ liệu cho nhiều mã cổ phiếu, tối ưu hóa tốc độ.
+Tự động xử lý phân trang (Paging) để lấy toàn bộ lịch sử giao dịch từ 2020 đến nay.Lưu trữ dữ liệu thô dưới dạng Excel.
 
 2. Modify_Data.py (Data Cleaner / ETL)Script này thực hiện quy trình ETL (Extract - Transform - Load) để biến đổi dữ liệu thô thành dạng sẵn sàng cho phân tích.
 Chức năng chính:
