@@ -1,4 +1,9 @@
 # Goiphanmem1
+Bước 1: Thu thập dữ liệu (Data Collection)File thực hiện: Install_Data.pyNguồn dữ liệu: API của CafeF (https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx).
+Bước 2: Làm sạch và Chuẩn hóa dữ liệu (Data Cleaning & Transformation)File thực hiện: Modify_Data.pyĐầu vào: File Excel thô từ 
+Bước 3: Chuẩn bị biến ngoại sinh (External Factors)File dữ liệu: 10ybondyield_filled.xlsxĐây là dữ liệu Lợi suất trái phiếu chính phủ 10 năm.
+Bước 4: Phân tích và Mô hình hóa (Analysis & Modeling)File thực hiện: do.ipynb
+
 1.Install_Data.py (Data Crawler) Script này chịu trách nhiệm thu thập dữ liệu lịch sử từ nguồn CafeF API.
 Chức năng chính:
 Gửi request giả lập User-Agent để lấy dữ liệu giao dịch (OHLCV) của danh sách cổ phiếu HNX30.
